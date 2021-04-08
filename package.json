@@ -1,0 +1,37 @@
+{
+  "name": "koa2-converter-middleware",
+  "version": "1.0.0",
+  "description": "一个将express中间件转换为koa2中间件的小工具，可用于webpack-dev-middleware，对应的express版本为4.17.X,koa的版本号为2.x",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangyuanzcm/koa2-converter-middleware.git"
+  },
+  "keywords": [
+    "koa2",
+    "webpack",
+    "middleware",
+    "koa2-webpack-dev-middleware",
+    "webpack-dev-middleware",
+    "koa2-converter-middleware"
+  ],
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "author": "wangyuanssh@sina.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangyuanzcm/koa2-converter-middleware/issues"
+  },
+  "homepage": "https://github.com/wangyuanzcm/koa2-converter-middleware#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12"
+  }
+}
