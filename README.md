@@ -32,5 +32,5 @@ app.listen(3000, () => console.log('Example app listening on port 3000!'));
 
 ## Support
 
-    在开发中遇到中间件的问题，在网上找的npm包过于古老或无人维护，所以自己发了个包。这里只是将express中间件包了一层，使其可以用在koa2上面，目前只在`webpack-dev-middleware`上试过。有问题请提issue。
+在开发中遇到中间件的问题，在网上找的npm包过于古老或无人维护，所以自己发了个包。这里只是将express中间件包了一层，使其可以用在koa2上面，目前只在`webpack-dev-middleware`上试过。有问题请提issue。
 
